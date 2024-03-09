@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, rgb(213, 81, 247), rgb(243, 84, 132));
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  color: #fff;
+}
+
+.container {
+  border: 2px solid white;
+  width: 40%;
+  min-width: 450px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  padding: 30px 40px;
+}
+
+.newTask {
+  position: relative;
+  background-color: #fff;
+  padding: 30px 20px;
+  border-radius: 5px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.newTask input {
+  width: 70%;
+  height: 45px;
+  border-radius: 5px;
+  border: 2px solid rgb(209, 211, 212);
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  padding: 12px;
+  color: #111;
+  font-size: 15px;
+  font-weight: 500;
+}
+.newTask input:focus {
+  outline: none;
+  border-color: rgb(236, 52, 206);
+}
+
+.newTask button {
+  position: relative;
+  float: right;
+  width: 20%;
+  height: 45px;
+  border-radius: 5px;
+  background-color: rgb(236, 52, 206);
+  color: #fff;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.tasks {
+  position: relative;
+  background-color: #fff;
+  padding: 30px 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  list-style: none;
+}
+
+.taskList {
+  background-color: #fff;
+  height: 50px;
+  padding: 5px 10px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #d1d3d4;
+  cursor: pointer;
+}
+
+.deleteBtn {
+  width: 40px;
+  height: 100%;
+  background-color: rgb(236, 52, 206);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
